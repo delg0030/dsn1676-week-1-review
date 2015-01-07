@@ -22,3 +22,7 @@ html {
 *, *::before, *::after {
     box-sizing: inherit;
 }
+
+.box {
+    border-color: red;
+}
