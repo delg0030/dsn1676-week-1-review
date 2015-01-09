@@ -5,20 +5,44 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 
-    -moz-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-    text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
+@media only screen and (min-width: 60em) {
+    
+    html {
+        font-size: 110%;
+    }
 
-*, *::before, *::after {
-    box-sizing: inherit;
 }
+
+@media only screen and (min-width: 90em) {
+    
+    html {
+        font-size: 120%;
+    }
+
+}
+    
+@media only screen and (min-width: 120em) {
+    
+    html {
+        font-size: 130%;
+    }
+
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 
 .main {
     background-color: #07181e;
@@ -28,3 +52,26 @@ html {
 .box {
     border-color: red;
 }
+
+.masthead {
+    text-align: center;
+    padding: 1rem;
+}
+
+.exterminate {
+    background-color: #FF99CC;
+    padding: 0;
+}
+
+.logo img {
+    width: 12%;
+    margin-left: 10rem;
+    padding: 0;
+}
+    
+    
+    
+    
+    
+    
+    
